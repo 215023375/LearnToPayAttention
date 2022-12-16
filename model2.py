@@ -1,8 +1,8 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from blocks import ConvBlock, LinearAttentionBlock, ProjectorBlock
-from initialize import *
+from .blocks import ConvBlock, LinearAttentionBlock, ProjectorBlock
+from .initialize import *
 
 '''
 attention after max-pooling

@@ -10,9 +10,9 @@ import torch.optim.lr_scheduler as lr_scheduler
 import torchvision
 import torchvision.utils as utils
 import torchvision.transforms as transforms
-from model1 import AttnVGG_before
-from model2 import AttnVGG_after
-from utilities import *
+from .model1 import AttnVGG_before
+from .model2 import AttnVGG_after
+from .utilities import *
 
 os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID"
 os.environ["CUDA_VISIBLE_DEVICES"] = "0,1"
